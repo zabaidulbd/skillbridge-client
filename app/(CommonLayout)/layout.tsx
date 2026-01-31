@@ -1,5 +1,12 @@
+import Navbar from "@/components/shared/Navbar/Navbar";
+
 const Commonlayout = ({ children }: { children: React.ReactNode }) => {
-  return <div>{children}</div>;
+  return (
+    <div>
+      <Navbar />
+      {children}
+    </div>
+  );
 };
 
 export default Commonlayout;
