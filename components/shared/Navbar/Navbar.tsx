@@ -73,7 +73,7 @@ export default function Navbar() {
               Home
             </Link>
 
-            <Link href="/products" className="text-primary font-medium ">
+            <Link href="/tutors" className="text-primary font-medium ">
               Tutors
             </Link>
 
