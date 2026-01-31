@@ -74,7 +74,7 @@ export default function Navbar() {
             </Link>
 
             <Link href="/products" className="text-primary font-medium ">
-              Products
+              Tutors
             </Link>
 
             <Link href="/about" className="text-primary font-medium ">
