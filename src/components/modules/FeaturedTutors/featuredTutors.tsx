@@ -1,3 +1,4 @@
+import { Button } from "@/src/components/ui/button";
 import {
   Card,
   CardContent,
@@ -5,8 +6,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/src/components/ui/button";
+} from "@/src/components/ui/card";
 import { TUTORS_DATA } from "@/src/constants/tutors";
 import { Star } from "lucide-react";
 import Image from "next/image";
