@@ -28,9 +28,13 @@ export default function DashboardSidebar({ role }: SidebarProps) {
       { name: "Profile", href: "/dashboard/profile", icon: UserCircle },
     ],
     tutor: [
-      { name: "Overview", href: "/dashboard", icon: LayoutDashboard },
-      { name: "My Sessions", href: "/dashboard/sessions", icon: CalendarDays },
-      { name: "Profile", href: "/dashboard/profile", icon: UserCircle },
+      { name: "Overview", href: "/tutor/dashboard", icon: LayoutDashboard },
+      {
+        name: "My Availability",
+        href: "/tutor/availability",
+        icon: CalendarDays,
+      },
+      { name: "Profile", href: "/tutor/profile", icon: UserCircle },
     ],
     admin: [
       { name: "Overview", href: "/dashboard", icon: LayoutDashboard },
