@@ -2,7 +2,7 @@ import RegisterPage from "@/src/components/modules/authentication/register-form"
 
 const page = () => {
   return (
-    <div>
+    <div className="pb-8">
       <RegisterPage />
     </div>
   );

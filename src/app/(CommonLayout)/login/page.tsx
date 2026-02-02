@@ -2,7 +2,7 @@ import LoginPage from "@/src/components/modules/authentication/login-form";
 
 const page = () => {
   return (
-    <div>
+    <div className="pb-8">
       <LoginPage />
     </div>
   );
