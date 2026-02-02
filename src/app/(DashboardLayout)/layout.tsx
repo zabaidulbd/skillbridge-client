@@ -12,7 +12,7 @@ export default function DashboardLayout({
   // user role type
   type UserRole = "student" | "admin" | "tutor";
 
-  const role = "student" as UserRole;
+  const role = "tutor" as UserRole;
 
   return (
     <div className="flex min-h-screen">
