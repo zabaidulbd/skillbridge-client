@@ -37,9 +37,10 @@ export default function DashboardSidebar({ role }: SidebarProps) {
       { name: "Profile", href: "/tutor/profile", icon: UserCircle },
     ],
     admin: [
-      { name: "Overview", href: "/dashboard", icon: LayoutDashboard },
-      { name: "Manage Users", href: "/dashboard/users", icon: Users },
-      { name: "Settings", href: "/dashboard/settings", icon: ShieldCheck },
+      { name: "Statistics", href: "/admin", icon: LayoutDashboard },
+      { name: "Manage Users", href: "/admin/users", icon: Users },
+      { name: "Bookings", href: "/admin/bookings", icon: ShieldCheck },
+      { name: "Categories", href: "/admin/categories", icon: LayoutDashboard },
     ],
   };
 
